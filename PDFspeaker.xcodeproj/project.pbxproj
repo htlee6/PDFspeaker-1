@@ -48,6 +48,7 @@
 		DF99A9E7247FEE7C005F9595 /* PDFspeakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PDFspeakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF99A9EB247FEE7C005F9595 /* PDFspeakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFspeakerUITests.swift; sourceTree = "<group>"; };
 		DF99A9ED247FEE7C005F9595 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF99A9F9247FEF39005F9595 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +79,7 @@
 		DF99A9BE247FEE78005F9595 = {
 			isa = PBXGroup;
 			children = (
+				DF99A9F9247FEF39005F9595 /* README.md */,
 				DF99A9C9247FEE78005F9595 /* PDFspeaker */,
 				DF99A9DF247FEE7C005F9595 /* PDFspeakerTests */,
 				DF99A9EA247FEE7C005F9595 /* PDFspeakerUITests */,
