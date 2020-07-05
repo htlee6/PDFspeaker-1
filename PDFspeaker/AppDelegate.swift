@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  PDFspeaker
 //
-//  Created by 李昊天 on 2020/5/28.
+//  Created by HauTen Lee on 2020/5/28.
 //  Copyright © 2020 HauTen Lee. All rights reserved.
 //
 

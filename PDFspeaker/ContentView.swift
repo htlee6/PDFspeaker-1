@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  PDFspeaker
 //
-//  Created by 李昊天 on 2020/5/28.
+//  Created by HauTen Lee on 2020/5/28.
 //  Copyright © 2020 HauTen Lee. All rights reserved.
 //
 
@@ -10,8 +10,30 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
-            .frame(maxWidth: .infinity, maxHeight: .infinity)
+        VStack {
+            HStack {
+                VStack {
+                    Button(action: {}) {
+                        Text("Choose file")
+                    }
+                    Spacer(minLength: 10.0)
+                    Text("Preview Area")
+                }
+                .padding()
+                Divider().padding()
+                Spacer()
+                VStack {
+                    Text("Comment")
+                    Spacer()
+                }
+                .padding()
+            }
+            Divider().padding()
+            Button(action: {}) {
+                Text("Present")
+            }
+        .padding()
+        }
     }
 }
 
