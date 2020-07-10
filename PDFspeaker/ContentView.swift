@@ -13,8 +13,8 @@ struct ContentView: View {
         VStack {
             HStack {
                 VStack {
-                    Button(action: {}) {
-                        Text("Choose file")
+                    Button("Choose file") {
+                        
                     }
                     Spacer(minLength: 10.0)
                     Text("Preview Area")
@@ -29,8 +29,8 @@ struct ContentView: View {
                 .padding()
             }
             Divider().padding()
-            Button(action: {}) {
-                Text("Present")
+            Button("Present") {
+                
             }
         .padding()
         }
@@ -41,5 +41,6 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .environment(\.locale, .init(identifier: "zh_hk"))
     }
 }

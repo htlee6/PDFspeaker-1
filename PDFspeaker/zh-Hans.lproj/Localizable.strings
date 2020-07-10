@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  PDFspeaker
+
+  Created by 李昊天 on 2020/7/10.
+  Copyright © 2020 HauTen Lee. All rights reserved.
+*/
+"Choose file" = "选择文件";
+"Preview Area" = "预览区";
+"Present" = "开始演讲";
+"Comment" = "备注";
