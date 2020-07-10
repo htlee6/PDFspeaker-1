@@ -6,7 +6,7 @@ PDFspeaker为使用PDF文件的演讲者提供便利。
 - 演讲者模式
 
 ## 支持我们
-####您的慷慨帮助是支持我们开发的巨大动力！您可以选择任意金额！
+#### 您的慷慨帮助是支持我们开发的巨大动力！您可以选择任意金额！
 - PayPal [https://paypal.me/hautenlee](https://paypal.me/hautenlee)   
 
 ## 联系我们
