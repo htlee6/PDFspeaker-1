@@ -15,6 +15,7 @@
 		DF99A9D5247FEE7C005F9595 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF99A9D3247FEE7C005F9595 /* Main.storyboard */; };
 		DF99A9E1247FEE7C005F9595 /* PDFspeakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF99A9E0247FEE7C005F9595 /* PDFspeakerTests.swift */; };
 		DF99A9EC247FEE7C005F9595 /* PDFspeakerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF99A9EB247FEE7C005F9595 /* PDFspeakerUITests.swift */; };
+		DFF2574B2621A66B00C0438D /* PdfFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF2574A2621A66B00C0438D /* PdfFile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		DF99A9EB247FEE7C005F9595 /* PDFspeakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFspeakerUITests.swift; sourceTree = "<group>"; };
 		DF99A9ED247FEE7C005F9595 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF99A9F9247FEF39005F9595 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DFF2574A2621A66B00C0438D /* PdfFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PdfFile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 		DF99A9C9247FEE78005F9595 /* PDFspeaker */ = {
 			isa = PBXGroup;
 			children = (
+				DFF257492621A63800C0438D /* Pdf */,
 				DF33C19524B8452C00545D59 /* Localizable.strings */,
 				DF99A9CA247FEE78005F9595 /* AppDelegate.swift */,
 				DF99A9CC247FEE78005F9595 /* ContentView.swift */,
@@ -142,6 +145,14 @@
 				DF99A9ED247FEE7C005F9595 /* Info.plist */,
 			);
 			path = PDFspeakerUITests;
+			sourceTree = "<group>";
+		};
+		DFF257492621A63800C0438D /* Pdf */ = {
+			isa = PBXGroup;
+			children = (
+				DFF2574A2621A66B00C0438D /* PdfFile.swift */,
+			);
+			path = Pdf;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,7 +218,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1130;
-				LastUpgradeCheck = 1130;
+				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = "HauTen Lee";
 				TargetAttributes = {
 					DF99A9C6247FEE78005F9595 = {
@@ -278,6 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFF2574B2621A66B00C0438D /* PdfFile.swift in Sources */,
 				DF99A9CD247FEE78005F9595 /* ContentView.swift in Sources */,
 				DF99A9CB247FEE78005F9595 /* AppDelegate.swift in Sources */,
 			);
@@ -458,6 +470,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = PDFspeaker/PDFspeaker.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"PDFspeaker/Preview Content\"";
@@ -481,6 +494,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = PDFspeaker/PDFspeaker.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"PDFspeaker/Preview Content\"";
