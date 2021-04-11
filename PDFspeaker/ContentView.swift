@@ -9,31 +9,16 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @EnvironmentObject var pdfEntity: PdfEntity
+    
+    private let pdfLoadedUrl = NotificationCenter.default.publisher(for: .pdfFileLoaded)
+    
     var body: some View {
-        VStack {
-            HStack {
-                VStack {
-                    Button("Choose file") {
-                        
-                    }
-                    Spacer(minLength: 10.0)
-                    Text("Preview Area")
-                }
-                .padding()
-                Divider().padding()
-                Spacer()
-                VStack {
-                    Text("Comment")
-                    Spacer()
-                }
-                .padding()
-            }
-            Divider().padding()
-            Button("Present") {
-                
-            }
-        .padding()
+        ZStack{
+            Text(pdfEntity.filePath.path)
         }
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
     }
 }
 
