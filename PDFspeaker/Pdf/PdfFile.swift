@@ -7,7 +7,22 @@
 //
 
 import Foundation
+import AppKit
 
 class PdfEntity: ObservableObject {
+    @Published var filePath: URL
+    @Published var pages: [PdfPage]
     
+    init(pdfFilePath fp: URL) {
+        self.filePath = fp
+        self.pages = []
+    }
+}
+
+class PdfPage: ObservableObject, Identifiable {
+    @Published var thumbnail: NSImage
+    
+    init(preview: NSImage) {
+        self.thumbnail = preview
+    }
 }
