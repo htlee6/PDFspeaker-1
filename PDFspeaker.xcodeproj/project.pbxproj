@@ -16,6 +16,7 @@
 		DF99A9E1247FEE7C005F9595 /* PDFspeakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF99A9E0247FEE7C005F9595 /* PDFspeakerTests.swift */; };
 		DF99A9EC247FEE7C005F9595 /* PDFspeakerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF99A9EB247FEE7C005F9595 /* PDFspeakerUITests.swift */; };
 		DFF2574B2621A66B00C0438D /* PdfFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF2574A2621A66B00C0438D /* PdfFile.swift */; };
+		DFF257502622D22200C0438D /* PdfPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF2574F2622D22200C0438D /* PdfPreviewView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		DF99A9ED247FEE7C005F9595 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF99A9F9247FEF39005F9595 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DFF2574A2621A66B00C0438D /* PdfFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PdfFile.swift; sourceTree = "<group>"; };
+		DFF2574F2622D22200C0438D /* PdfPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PdfPreviewView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,10 +110,10 @@
 		DF99A9C9247FEE78005F9595 /* PDFspeaker */ = {
 			isa = PBXGroup;
 			children = (
+				DFF2574E2622D1E100C0438D /* View */,
 				DFF257492621A63800C0438D /* Pdf */,
 				DF33C19524B8452C00545D59 /* Localizable.strings */,
 				DF99A9CA247FEE78005F9595 /* AppDelegate.swift */,
-				DF99A9CC247FEE78005F9595 /* ContentView.swift */,
 				DF99A9CE247FEE7C005F9595 /* Assets.xcassets */,
 				DF99A9D3247FEE7C005F9595 /* Main.storyboard */,
 				DF99A9D6247FEE7C005F9595 /* Info.plist */,
@@ -153,6 +155,15 @@
 				DFF2574A2621A66B00C0438D /* PdfFile.swift */,
 			);
 			path = Pdf;
+			sourceTree = "<group>";
+		};
+		DFF2574E2622D1E100C0438D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DF99A9CC247FEE78005F9595 /* ContentView.swift */,
+				DFF2574F2622D22200C0438D /* PdfPreviewView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,6 +302,7 @@
 			files = (
 				DFF2574B2621A66B00C0438D /* PdfFile.swift in Sources */,
 				DF99A9CD247FEE78005F9595 /* ContentView.swift in Sources */,
+				DFF257502622D22200C0438D /* PdfPreviewView.swift in Sources */,
 				DF99A9CB247FEE78005F9595 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
